@@ -47,6 +47,7 @@
     border: none;
     border-radius: 7px;
     color: white;
+    cursor: pointer;
 }
 
 .header-title button {
@@ -159,14 +160,14 @@
     position: relative;
 }
 
-input {
+.donate-last input {
     border: none;
     height: 50px;
     width: 500px;
     border-bottom: 2px solid rgb(125, 117, 117);
 }
 
-::placeholder {
+.donate-last input::placeholder {
     padding-left: 180px;
     font-size: 18px;
 }
@@ -359,6 +360,7 @@ input {
     width: 150px;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 
