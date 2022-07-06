@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-section {
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    text-align: center;
+    position: relative;
+    background-image: url(image/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+
+}
+
+.header-section p {
+    width: 50%;
+    margin-left: 400px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.header-title {
+    position: absolute;
+    margin-top: 300px;
+    color: white;
+}
+
+.header-text {
+    font-size: 60px;
+    width: 800px;
+    color: white background-color: gray;
+    margin-left: 400px;
+
+
+}
+
+.btn {
+    background-color: rgb(232, 62, 62);
+    padding: 10px 25px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.header-title button {
+    margin-top: 20px;
+}
+
+.donate-section {
+    width: 90%;
+    height: 100vh;
+    position: relative;
+}
+
+.donate-section h1 {
+    position: absolute;
+    margin-left: 600px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+
+}
+
+.donate-section p {
+    position: absolute;
+    width: 60%;
+    margin-left: 390px;
+    margin-top: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.donate-amount {
+    position: relative;
+    width: 1200px;
+    display: flex;
+
+
+}
+
+.amount-one {
+    position: absolute;
+    margin-left: 350px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(244, 242, 242);
+    margin-top: 330px;
+
+
+}
+
+.amount-two {
+
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 330px;
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(244, 225, 225);
+
+}
+
+.amount-three {
+    position: absolute;
+    margin-left: 710px;
+    margin-top: 330px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(244, 242, 242);
+
+}
+
+.amount-four {
+    position: absolute;
+    margin-left: 890px;
+    margin-top: 330px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(244, 242, 242);
+
+}
+
+.amount-five {
+    position: absolute;
+    margin-left: 1070px;
+    margin-top: 330px;
+    height: 150px;
+    width: 150px;
+    background-color: rgb(244, 242, 242);
+
+}
+
+.tk {
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+
+.tk-mark {
+    color: red;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.donate-last {
+    margin-left: 700px;
+    margin-top: 530px;
+    position: relative;
+}
+
+input {
+    border: none;
+    height: 50px;
+    width: 500px;
+    border-bottom: 2px solid rgb(125, 117, 117);
+}
+
+::placeholder {
+    padding-left: 180px;
+    font-size: 18px;
+}
+
+
+
+.donate-last .bdr {
+    margin-left: -180px;
+}
+
+.donate-last button {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -330px;
+}
+
+.donate-last label {
+    color: gray;
+    font-size: 18px;
+}
+
+.donate-plan {
+    width: 100%;
+    height: 100vh;
+}
+
+.plan-title {
+    position: relative;
+}
+
+.donate-plan .plan-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 600px;
+}
+
+.donate-plan .plan-p {
+    position: absolute;
+    text-align: center;
+    margin-top: 130px;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 400px;
+}
+
+.donate-card {
+
+    display: flex;
+    position: relative;
+
+}
+
+.card-one {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 280px;
+    height: 320px;
+    width: 320px;
+    background-color: rgb(231, 207, 174);
+
+}
+
+.card-two {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 630px;
+    height: 320px;
+    width: 320px;
+    background-color: rgb(171, 227, 205);
+
+}
+
+.card-three {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 980px;
+    height: 320px;
+    width: 320px;
+    background-color: rgb(226, 230, 151);
+
+}
+
+.donate-card img {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.donate-card h1 {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.donate-card p {
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+
+
+}
+
+.photo-section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.photo-title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    position: absolute;
+    margin-left: 600px;
+}
+
+.photo-text {
+    width: 50%;
+    margin-top: 120px;
+    margin-left: 450px;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+}
+
+.photo {
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.photo img {
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 250px;
+}
+
+.photo button {
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.update-section {
+    width: 100%;
+    height: 500px;
+
+}
+
+.update-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 600px;
+    margin-top: px;
+}
+
+.update-section p {
+    width: 50%;
+    margin-left: 450px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-section {
+    height: 200px;
+    width: 900px;
+    background-color: rgb(245, 215, 215);
+    margin-left: 350px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.contact-section input {
+    border: none;
+    background-color: rgb(194, 179, 179);
+    height: 15px;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 210px;
+    padding: 13px;
+}
+
+.btn1 {
+    background-color: rgb(232, 62, 62);
+    border: none;
+    padding: 9px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.contact-section button {
+    margin-left: -10px;
+    margin-top: 80px;
+    position: absolute;
+
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+
+footer h1 {
+    color: rgb(250, 61, 61);
+    margin-left: 700px;
+    margin-top: 50px;
+    position: absolute;
+
+}
+
+footer span {
+    color: white;
+    margin-left: 730px;
+    margin-top: 120px;
+    position: absolute;
+}
